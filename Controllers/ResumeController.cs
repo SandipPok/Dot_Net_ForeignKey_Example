@@ -27,7 +27,7 @@ namespace MultipleConnection.Controllers
         {
             Applicant applicant = new Applicant();
 
-            applicant.Experiences.Add(new Experience() { ExperienceId = 1 });
+            applicant.Experiences.Add(new Experience() { /*ExperienceId = 1*/ });
             /*applicant.Experiences.Add(new Experience() { ExperienceId = 2 });
             applicant.Experiences.Add(new Experience() { ExperienceId = 3 });*/
 
